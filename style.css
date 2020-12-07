@@ -1,11 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+
 #landing-page{
     background-repeat:no repeat;
     background-size:cover;
     height:100vh;
     padding-top:35vh;
-    background-image: url('landingPicture.png');
-    
+    background-image: url('landingPicture.png'); 
 }
+
 .card{
-    background-color:rgb(126, 126, 197);
+    background-color:rgb(230, 230, 240);
+}
+
+.list-style{
+    list-style-position: inside;
+}
+
+.card-title{
+    color:purple;
+}
+
+.contact{
+    background-color:rgb(230, 230, 240);
 }
