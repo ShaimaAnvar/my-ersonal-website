@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $("#submit-form").validate({
+        rules:{
+            givenName:{
+                required:true,
+                minlength:4
+            },
+            givenPlace:{
+                required:true,
+                minlength:4
+            },
+            emailAddress:{
+                required:true,
+                email:true
+            },
+            mobileNumber:{
+                required:true,
+                number:true
+            },
+            typeMessage:{
+                required:true,
+                text:true
+            }
+        }
+
+    })
+})
